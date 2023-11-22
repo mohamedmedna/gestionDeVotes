@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">QuestionnaireApp</string>
+    <string name="login" >Login</string>
+    <string name="email" >Email</string>
+    <string name="password" >Password</string>
+    <string name="adduser" >Ajouter un utilisateur</string>
+    <string name="ajouter" >َََAjouter</string>
+    <string name="Click_to_login">Cliquer pour vous connecter</string>
+    <string name="Click_to_register">Cliquer pour vous inscrire</string>
+    <string name="logout">logout</string>
+</resources>

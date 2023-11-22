@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResponsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textSize="46dp"
+        android:textColor="@color/purple_700"
+        android:id="@+id/repondquestion"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="105dp"
+        android:id="@+id/reponseedit"
+        android:hint="votre reponse"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Repondre"
+        android:id="@+id/submitresponse"
+        android:textAlignment="center"
+        android:layout_marginLeft="145dp"
+        android:layout_marginTop="111dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Voire la liste de reponses"
+        android:id="@+id/listesresponse"
+        android:textAlignment="center"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="11dp"
+        />
+
+
+</LinearLayout>
